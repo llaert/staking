@@ -4,7 +4,7 @@ pragma solidity 0.8.9;
 
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
-contract GameToken is ERC20("GameToken", "GM") {
+contract Token is ERC20("Token", "TT") {
     
     function mint(address _to, uint256 _amount) public {
         _mint(_to, _amount);
